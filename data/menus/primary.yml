@@ -1,2 +1,6 @@
---- []
+---
+- title: Manifeste
+  target: "/manifeste/"
+  kind: page
+  children: []
 
