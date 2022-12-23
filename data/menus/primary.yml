@@ -3,4 +3,8 @@
   target: "/manifeste/"
   kind: page
   children: []
+- title: Communs numériques
+  target: "/communs-numeriques/"
+  kind: page
+  children: []
 
