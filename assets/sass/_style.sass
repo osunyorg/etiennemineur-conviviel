@@ -1,8 +1,8 @@
 body
     // background-image: url(/assets/images/background-desktop.png) 
     &::before
-        border-left: $color-accent $border-width solid 
-        border-right: $color-accent $border-width solid
+        outline: $color-accent $border-width  solid
+        outline-offset: -$border-width
         content: ""
         display: block
         position: fixed
@@ -14,24 +14,20 @@ body
         pointer-events: none
     
 header#document-header
-    border: $color-border $border-width solid
-    .logo
-        margin-left: -$border-width
-    .menu
-        margin-right: -$border-width
+    outline: $color-accent $border-width solid
+    outline-offset: -$border-width
 
 footer#document-footer
-    border-top: $color-border $border-width solid
-    border-bottom: $color-border $border-width solid
+    outline: $color-accent $border-width solid
 
 @include media-breakpoint-down(desktop)
     .toc-cta
-        padding-left: $spacing1
-        padding-right: $spacing1
-        border-bottom: $color-border $border-width solid
+        padding: $spacing1
+        outline: $color-accent $border-width solid
+        outline-offset: -$border-width
     .toc-content
-        border-top: $color-border $border-width solid
-        border-bottom: $color-border $border-width solid
+        border-top: $color-accent $border-width solid
+        outline: $color-accent $border-width solid
 .toc-pages
     li
         a::before
