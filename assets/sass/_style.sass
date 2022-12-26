@@ -47,35 +47,3 @@ footer#document-footer
             @include media-breakpoint-up(desktop)
                 margin-top: $spacing4
 
-    .toc-cta
-        padding: $spacing1
-        outline: $color-accent $border-width solid
-        outline-offset: -$border-width
-.toc-content
-    border-top: $color-accent $border-width solid
-    outline: $color-accent $border-width solid
-.toc-container
-    @include in-page-with-or-without-sidebar
-        .toc-title
-            border-bottom: none
-        button
-            border-top: none
-        @include media-breakpoint-up(desktop)
-            .toc-title
-                line-height: calc(var(--header-height) - 6px)
-        @include media-breakpoint-down(desktop)
-            .toc-title
-                padding-top: 16px
-                padding-bottom: $spacing1
-            button
-                padding-top: $spacing1
-                padding-bottom: $spacing1
-.toc-pages
-    outline: $color-accent $border-width solid
-.toc-pages
-    li
-        a::before
-            content: "—"
-            margin-right: 12px
-            @include media-breakpoint-down(desktop)
-                margin-left: -$spacing1

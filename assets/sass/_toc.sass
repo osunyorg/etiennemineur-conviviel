@@ -1,0 +1,37 @@
+// Outline for every size
+.toc-pages li a::before
+    content: "—"
+    margin-right: 12px
+.toc-container
+    @include in-page-with-or-without-sidebar
+        .toc-title
+            border-bottom: none
+        button
+            border-top: none
+
+// Desktop specific
+@include media-breakpoint-up(desktop)
+    .toc-container
+        @include in-page-without-sidebar
+            .toc-content
+                outline: $color-accent $border-width solid
+
+// Mobile specific
+@include media-breakpoint-down(desktop)
+    .toc-pages li a::before
+        margin-right: 6px
+        margin-left: -$spacing1
+    .toc-cta
+        padding: $spacing1
+        outline: $color-accent $border-width solid
+        outline-offset: -$border-width
+    .toc-container
+        .toc-content
+            outline: $color-accent $border-width solid
+        @include in-page-with-or-without-sidebar
+            .toc-title
+                padding-top: $spacing1
+                // padding-bottom: $spacing1
+            button
+                // padding-top: $spacing1
+                padding-bottom: $spacing1
