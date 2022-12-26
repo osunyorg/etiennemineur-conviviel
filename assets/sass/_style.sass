@@ -16,9 +16,15 @@ body
 header#document-header
     outline: $color-accent $border-width solid
     outline-offset: -$border-width
+    nav
+        @include media-breakpoint-up(desktop)
+            padding-top: $spacing2
+            padding-bottom: $spacing2
 
 footer#document-footer
     outline: $color-accent $border-width solid
+    @include media-breakpoint-down(desktop)
+        text-align: center
 
 @include media-breakpoint-down(desktop)
     .toc-cta
