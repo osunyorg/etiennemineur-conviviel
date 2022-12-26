@@ -7,4 +7,8 @@
   target: "/communs-numeriques/"
   kind: page
   children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: posts
+  children: []
 

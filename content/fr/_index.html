@@ -16,6 +16,7 @@ children:
   - /politique-de-confidentialite/
   - /accessibilite/
   - /equipe/
+  - /actualites/
 description: >
   
 description_short: >
@@ -26,10 +27,18 @@ header_text: >-
 legacy_text: >
   
 blocks:
+  - template: posts
+    title: >-
+      Actualités
+    position: 1
+    data:
+      layout: grid
+      posts:
+        - "2022/2022-12-26-lancement-de-linitiative"
   - template: call_to_action
     title: >-
       Manifeste
-    position: 1
+    position: 2
     data:
       text: >-
         <p>Vers un design convivial des communs numériques <br></p>

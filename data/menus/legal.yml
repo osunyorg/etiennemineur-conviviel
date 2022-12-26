@@ -1,2 +1,14 @@
---- []
+---
+- title: Mentions légales
+  target: "/mentions-legales/"
+  kind: page
+  children: []
+- title: Accessibilité
+  target: "/accessibilite/"
+  kind: page
+  children: []
+- title: Politique de confidentialité
+  target: "/politique-de-confidentialite/"
+  kind: page
+  children: []
 
