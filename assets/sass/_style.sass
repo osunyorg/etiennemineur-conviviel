@@ -1,18 +1,24 @@
-body::before
-    border-left: $color-accent $border-width solid 
-    border-right: $color-accent $border-width solid
-    content: ""
-    display: block
-    position: fixed
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    z-index: 100
-    pointer-events: none
+body
+    // background-image: url(/assets/images/background-desktop.png) 
+    &::before
+        border-left: $color-accent $border-width solid 
+        border-right: $color-accent $border-width solid
+        content: ""
+        display: block
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        z-index: 100
+        pointer-events: none
     
 header#document-header
     border: $color-border $border-width solid
+    .logo
+        margin-left: -$border-width
+    .menu
+        margin-right: -$border-width
 
 footer#document-footer
     border-top: $color-border $border-width solid
@@ -26,3 +32,10 @@ footer#document-footer
     .toc-content
         border-top: $color-border $border-width solid
         border-bottom: $color-border $border-width solid
+.toc-pages
+    li
+        a::before
+            content: "—"
+            margin-right: 12px
+            @include media-breakpoint-down(desktop)
+                margin-left: -$spacing1
