@@ -22,11 +22,30 @@ header#document-header
         @include media-breakpoint-up(desktop)
             padding-top: $spacing2
             padding-bottom: $spacing2
+        .menu
+            padding-bottom: $border-width
+
+.blocks 
+    > .block-chapter
+        padding-top: 6px
+.hero
+    .content
+        figure
+            @include media-breakpoint-down(desktop)
+                margin-left: -$border-width
+                margin-right: -$border-width
 
 footer#document-footer
     outline: $color-accent $border-width solid
     @include media-breakpoint-down(desktop)
         text-align: center
+
+.page__home
+    .hero
+        h1
+            margin-top: $spacing3
+            @include media-breakpoint-up(desktop)
+                margin-top: $spacing4
 
 @include media-breakpoint-down(desktop)
     .toc-cta
