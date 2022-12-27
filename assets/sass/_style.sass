@@ -28,6 +28,10 @@ header#document-header
 .blocks 
     > .block-chapter
         padding-top: 6px
+    .block-chapter--accent_background,
+    .block-chapter--alt_background
+        @include in-page-with-sidebar
+            padding-bottom: $spacing3
 .hero
     .content
         figure
