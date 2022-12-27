@@ -4,8 +4,14 @@ title: >
 breadcrumb_title: "Accueil"
 url: "/"
 
-position: 1
 full_width: true
+design:
+  full_width: true
+  toc:
+    present: true
+    offcanvas: true
+
+position: 1
 bodyclass: 
 
 children:
@@ -35,37 +41,16 @@ blocks:
       layout: grid
       posts:
         - "2022/2022-12-26-lancement-de-linitiative"
-  - template: call_to_action
+  - template: pages
     title: >-
-      Manifeste
-    position: 2
+      
+    position: 3
     data:
-      text: >-
-        <p>Vers un design convivial des communs numériques <br></p>
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-      buttons:
-        - title: >-
-            Lire le manifeste
-
-
-          url: >-
-            /manifeste
-
-
-          target_blank: false
-
-
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
 
 
 ---
