@@ -2,4 +2,4 @@
 
 posts: /actualites/:year-:month-:day-:slug/
 organizations: /organisations/:slug/
-persons: /equipe/:slug/
+persons: /personnes/:slug/
