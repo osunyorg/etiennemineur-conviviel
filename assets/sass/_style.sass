@@ -17,27 +17,37 @@ header#document-header
     outline: $color-accent $border-width solid
     outline-offset: -$border-width
     nav
+        padding-top: $spacing1
+        padding-bottom: $spacing1
         @include media-breakpoint-up(desktop)
             padding-top: $spacing2
             padding-bottom: $spacing2
+        .menu
+            padding-bottom: $border-width
+
+.blocks 
+    > .block-chapter
+        padding-top: 6px
+    .block-chapter--accent_background,
+    .block-chapter--alt_background
+        @include in-page-with-sidebar
+            padding-bottom: $spacing3
+.hero
+    .content
+        figure
+            @include media-breakpoint-down(desktop)
+                margin-left: -$border-width
+                margin-right: -$border-width
 
 footer#document-footer
     outline: $color-accent $border-width solid
     @include media-breakpoint-down(desktop)
         text-align: center
 
-@include media-breakpoint-down(desktop)
-    .toc-cta
-        padding: $spacing1
-        outline: $color-accent $border-width solid
-        outline-offset: -$border-width
-    .toc-content
-        border-top: $color-accent $border-width solid
-        outline: $color-accent $border-width solid
-.toc-pages
-    li
-        a::before
-            content: "—"
-            margin-right: 12px
-            @include media-breakpoint-down(desktop)
-                margin-left: -$spacing1
+.page__home
+    .hero
+        h1
+            margin-top: $spacing3
+            @include media-breakpoint-up(desktop)
+                margin-top: $spacing4
+

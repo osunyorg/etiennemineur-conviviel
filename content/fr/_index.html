@@ -4,19 +4,32 @@ title: >
 breadcrumb_title: "Accueil"
 url: "/"
 
-position: 1
 full_width: true
+design:
+  full_width: true
+  toc:
+    present: true
+    offcanvas: true
+
+position: 1
 bodyclass: 
 
 children:
   - /manifeste/
   - /communs-numeriques/
+  - /organisations/
   - /mentions-legales/
   - /plan-du-site/
   - /politique-de-confidentialite/
   - /accessibilite/
-  - /equipe/
+  - /personnes/
+  - /actualites/
+meta_description: >
+  
 description: >
+  
+
+summary: >
   
 description_short: >
   
@@ -26,37 +39,30 @@ header_text: >-
 legacy_text: >
   
 blocks:
-  - template: call_to_action
+  - template: pages
     title: >-
-      Manifeste
+      L'initiative
     position: 1
     data:
-      text: >-
-        <p>Vers un design convivial des communs numériques <br></p>
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-      buttons:
-        - title: >-
-            Lire le manifeste
-
-
-          url: >-
-            /manifeste
-
-
-          target_blank: false
-
-
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+        - page: /manifeste/
+          slug: /manifeste/
+        - page: /communs-numeriques/
+          slug: /communs-numeriques/
+        - page: /organisations/
+          slug: /organisations/
+  - template: posts
+    title: >-
+      Les actualités
+    position: 2
+    data:
+      layout: grid
+      posts:
+        - "2022/2022-12-26-lancement-de-linitiative"
 
 
 ---
