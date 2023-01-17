@@ -15,4 +15,8 @@
   target: "/plan-du-site/"
   kind: page
   children: []
+- title: Code source
+  target: https://github.com/noesya/etiennemineur-conviviel
+  kind: url
+  children: []
 
