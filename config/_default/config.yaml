@@ -2,3 +2,7 @@ theme: osuny-hugo-theme-aaa
 paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
+params:
+  persons:
+    index:
+      layout: grid
