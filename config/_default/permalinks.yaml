@@ -4,4 +4,3 @@ categories: /actualites/:slug/
 posts: /actualites/:year-:month-:day-:slug/
 organizations: /organisations/:slug/
 persons: /personnes/:slug/
-authors: /personnes/:slug/actualites/
