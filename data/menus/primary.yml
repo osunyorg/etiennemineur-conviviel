@@ -39,6 +39,10 @@
     target: "/actualites/"
     kind: page
     children: []
+  - title: Travaux en cours
+    target: "/actualites/travaux-en-cours/"
+    kind: category
+    children: []
   - title: Actualités de l'initiative
     target: "/actualites/conviviel/"
     kind: category
@@ -47,8 +51,4 @@
     target: "/actualites/ressources/"
     kind: category
     children: []
-- title: Travaux en cours
-  target: "/actualites/travaux-en-cours/"
-  kind: category
-  children: []
 
