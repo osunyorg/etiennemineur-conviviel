@@ -47,4 +47,8 @@
     target: "/actualites/ressources/"
     kind: category
     children: []
+- title: Travaux en cours
+  target: "/actualites/travaux-en-cours/"
+  kind: category
+  children: []
 
