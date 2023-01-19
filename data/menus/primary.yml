@@ -11,6 +11,10 @@
   target: "/actualites/"
   kind: page
   children:
+  - title: Conviviel
+    target: "/actualites/conviviel/"
+    kind: category
+    children: []
   - title: Ressources
     target: "/actualites/ressources/"
     kind: category
