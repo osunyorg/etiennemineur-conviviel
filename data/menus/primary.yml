@@ -10,9 +10,9 @@
 - title: Actualités
   target: "/actualites/"
   kind: page
-  children: []
-- title: Ressources
-  target: "/actualites/ressources/"
-  kind: category
-  children: []
+  children:
+  - title: Ressources
+    target: "/actualites/ressources/"
+    kind: category
+    children: []
 
