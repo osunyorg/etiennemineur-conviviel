@@ -6,7 +6,11 @@
 - title: Communs numériques
   target: "/communs-numeriques/"
   kind: page
-  children: []
+  children:
+  - title: Définitions et méthodologie
+    target: "/communs-numeriques/definitions-et-methodologie/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
