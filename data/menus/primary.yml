@@ -15,6 +15,10 @@
     target: "/communs-numeriques/inventaire-contributif/"
     kind: page
     children: []
+  - title: Travaux en cours
+    target: "/communs-numeriques/travaux-en-cours/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
