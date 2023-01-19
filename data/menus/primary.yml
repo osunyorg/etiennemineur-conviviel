@@ -15,7 +15,7 @@
     target: "/actualites/"
     kind: page
     children: []
-  - title: Conviviel
+  - title: Actualités de l'initiative
     target: "/actualites/conviviel/"
     kind: category
     children: []
