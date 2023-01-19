@@ -11,6 +11,10 @@
     target: "/communs-numeriques/definitions-et-methodologie/"
     kind: page
     children: []
+  - title: Inventaire contributif
+    target: "/communs-numeriques/inventaire-contributif/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
