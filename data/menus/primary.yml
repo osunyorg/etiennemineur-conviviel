@@ -19,6 +19,10 @@
     target: "/communs-numeriques/travaux-en-cours/"
     kind: page
     children: []
+- title: Parties prenantes
+  target: ''
+  kind: blank
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
