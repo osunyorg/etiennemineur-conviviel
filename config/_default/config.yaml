@@ -3,6 +3,12 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  posts:
+    index:
+      show_categories: true
+      truncate_description: 0
+      layout: list
+
   persons:
     index:
       layout: grid
