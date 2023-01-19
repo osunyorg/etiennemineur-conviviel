@@ -22,7 +22,11 @@
 - title: Parties prenantes
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Organisations
+    target: "/organisations/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
