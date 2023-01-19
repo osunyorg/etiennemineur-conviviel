@@ -27,6 +27,10 @@
     target: "/organisations/"
     kind: page
     children: []
+  - title: Personnes
+    target: "/personnes/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
