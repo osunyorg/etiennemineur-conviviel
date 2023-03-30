@@ -1,4 +1,6 @@
 ---
+title: Primary
+items:
 - title: Manifeste
   target: "/manifeste/"
   kind: page
