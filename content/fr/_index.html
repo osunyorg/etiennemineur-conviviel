@@ -8,7 +8,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 1
@@ -34,8 +34,38 @@ description_short: >
 
 header_text: >-
   
-legacy_text: >
-  
+contents:
+  - kind: block
+    template: pages
+    title: >
+      L'initiative
+    position: 1
+    data:
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+        - page: /manifeste/
+          slug: /manifeste/
+        - page: /communs-numeriques/
+          slug: /communs-numeriques/
+
+
+  - kind: block
+    template: posts
+    title: >
+      Les actualités
+    position: 2
+    data:
+      all: true
+      layout: list
+      posts:
+        - "2023/2023-06-14-workshop-conviviel-a-linstitut-du-design-saint-malo-un-monde-numerique-en-commun"
+        - "2023/2023-04-10-alternative-to"
+        - "2023/2023-04-10-tiny-directory"
+
+
 blocks:
   - template: pages
     title: >-
