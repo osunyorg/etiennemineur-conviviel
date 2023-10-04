@@ -1,13 +1,13 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "yarn build"
 
 [build.environment]
-  HUGO_VERSION = "0.108.0"
+  HUGO_VERSION = "0.119.0"
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
-    X-Content-Type-Options = "nosniff"
+    X-Content-Type-Options = "nosniff" 

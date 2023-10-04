@@ -1,10 +1,7 @@
 /* eslint-disable no-undef */
 var devPlugins = {},
     productionPlugins = {
-        autoprefixer: {},
-        cssnano: {
-            preset: 'default'
-        }
+        autoprefixer: {}
     };
 
 module.exports = {
