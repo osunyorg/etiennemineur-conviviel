@@ -1,6 +1,12 @@
 ---
 title: "Lancement de l'initiative"
 date: "2022-12-26T12:24:29+01:00"
+breadcrumbs:
+  - title: "Accueil"
+    path: "/"
+  - title: "Actualités"
+    path: "/actualites/"
+  - title: "Lancement de l'initiative"
 url: "/actualites/2022-12-26-lancement-de-linitiative/"
 slug: "lancement-de-linitiative"
 aliases:
@@ -41,7 +47,7 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: people
+    template: persons
     title: >-
       
     position: 2
@@ -53,30 +59,15 @@ contents:
       with_photo: true
       persons:
         - slug: "etienne-mineur"
+          external: false
           role: >-
             
 
         - slug: "arnaud-levy"
+          external: false
           role: >-
             
 
-      elements:
-        - title: >-
-            Etienne Mineur
-          summary: >-
-            Designer, fondateur des Éditions Volumiques
-          kind: "osuny"
-          slug: "etienne-mineur"
-          url: "/personnes/etienne-mineur/"
-          picture: "d7d8b99a-83d9-48fe-ab6a-665b6297a2c7"
-        - title: >-
-            Arnaud Levy
-          summary: >-
-            Développeur, co-fondateur de noesya
-          kind: "osuny"
-          slug: "arnaud-levy"
-          url: "/personnes/arnaud-levy/"
-          picture: "a32ad74b-30c4-4f39-a131-9740eec95378"
 
 
   - kind: block
@@ -90,29 +81,14 @@ contents:
       show_images: false
       layout: grid
       pages:
-        - page: "/manifeste/"
-          slug: "/manifeste/"
-        - page: "/communs-numeriques/"
-          slug: "/communs-numeriques/"
-      elements:
-        - title: >-
-            Vers un design convivial des communs numériques
-          summary: >-
-            
+        - path: "/manifeste/"
           slug: "manifeste"
-          path: "/manifeste/"
-          url: "/manifeste/"
-          bodyclass: >-
-            
-        - title: >-
-            Communs numériques
-          summary: >-
-            
+          file: "content/fr/pages/manifeste/_index.html"
+          external: false
+        - path: "/communs-numeriques/"
           slug: "communs-numeriques"
-          path: "/communs-numeriques/"
-          url: "/communs-numeriques/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/communs-numeriques/_index.html"
+          external: false
 
 
 
