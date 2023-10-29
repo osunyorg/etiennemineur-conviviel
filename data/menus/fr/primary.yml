@@ -21,20 +21,20 @@ items:
     target: "/communs-numeriques/travaux-en-cours/"
     kind: page
     children:
-    - title: PeerTube
-      target: "/communs-numeriques/travaux-en-cours/peertube/"
-      kind: page
-      children: []
     - title: Mastodon
       target: "/communs-numeriques/travaux-en-cours/mastodon/"
       kind: page
       children: []
-    - title: Pixelfed
-      target: "/communs-numeriques/travaux-en-cours/pixelfed/"
-      kind: page
-      children: []
     - title: Mobilizon
       target: "/communs-numeriques/travaux-en-cours/mobilizon/"
+      kind: page
+      children: []
+    - title: PeerTube
+      target: "/communs-numeriques/travaux-en-cours/peertube/"
+      kind: page
+      children: []
+    - title: Pixelfed
+      target: "/communs-numeriques/travaux-en-cours/pixelfed/"
       kind: page
       children: []
     - title: Hypercomics
