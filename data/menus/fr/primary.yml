@@ -41,6 +41,10 @@ items:
       target: "/communs-numeriques/travaux-en-cours/hypercomics/"
       kind: page
       children: []
+    - title: Flop!
+      target: "/communs-numeriques/travaux-en-cours/flop/"
+      kind: page
+      children: []
 - title: Parties prenantes
   target: ''
   kind: blank
