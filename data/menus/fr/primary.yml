@@ -37,6 +37,10 @@ items:
       target: "/communs-numeriques/travaux-en-cours/mobilizon/"
       kind: page
       children: []
+    - title: Hypercomics
+      target: "/communs-numeriques/travaux-en-cours/hypercomics/"
+      kind: page
+      children: []
 - title: Parties prenantes
   target: ''
   kind: blank
