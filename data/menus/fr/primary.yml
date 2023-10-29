@@ -25,6 +25,10 @@ items:
       target: "/communs-numeriques/travaux-en-cours/peertube/"
       kind: page
       children: []
+    - title: Mastodon
+      target: "/communs-numeriques/travaux-en-cours/mastodon/"
+      kind: page
+      children: []
 - title: Parties prenantes
   target: ''
   kind: blank
