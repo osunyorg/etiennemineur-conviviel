@@ -21,6 +21,14 @@ items:
     target: "/communs-numeriques/travaux-en-cours/"
     kind: page
     children:
+    - title: Hypercomics
+      target: "/communs-numeriques/travaux-en-cours/hypercomics/"
+      kind: page
+      children: []
+    - title: Flop!
+      target: "/communs-numeriques/travaux-en-cours/flop/"
+      kind: page
+      children: []
     - title: Mastodon
       target: "/communs-numeriques/travaux-en-cours/mastodon/"
       kind: page
@@ -35,14 +43,6 @@ items:
       children: []
     - title: Pixelfed
       target: "/communs-numeriques/travaux-en-cours/pixelfed/"
-      kind: page
-      children: []
-    - title: Hypercomics
-      target: "/communs-numeriques/travaux-en-cours/hypercomics/"
-      kind: page
-      children: []
-    - title: Flop!
-      target: "/communs-numeriques/travaux-en-cours/flop/"
       kind: page
       children: []
 - title: Parties prenantes
