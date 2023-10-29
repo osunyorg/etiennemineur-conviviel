@@ -20,7 +20,11 @@ items:
   - title: Travaux en cours
     target: "/communs-numeriques/travaux-en-cours/"
     kind: page
-    children: []
+    children:
+    - title: PeerTube
+      target: "/communs-numeriques/travaux-en-cours/peertube/"
+      kind: page
+      children: []
 - title: Parties prenantes
   target: ''
   kind: blank
