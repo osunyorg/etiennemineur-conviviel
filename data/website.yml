@@ -1,14 +1,3 @@
 title: >
   Conviviel
-external_domains:
-  - "osuny-1b4da.kxcdn.com"
-  - "*.osuny.org"
-  - "osuny.s3.fr-par.scw.cloud"
-  - "tile.openstreetmap.org"
-  - "plausible.io"
-  - "youtube.com"
-  - "www.youtube.com"
-  - "img.youtube.com"
-  - "youtu.be"
-  - "infothema.net"
 social:
