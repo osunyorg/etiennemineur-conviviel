@@ -8,7 +8,11 @@ params:
       show_categories: true
       truncate_description: 0
       layout: list
-
   persons:
     index:
       layout: grid
+    single:
+      backlinks: true
+  organizations:
+    single:
+      backlinks: true
