@@ -17,17 +17,17 @@ header#document-header
     outline: $color-accent $border-width solid
     outline-offset: -$border-width
     nav
-        padding-top: $spacing1
-        padding-bottom: $spacing1
+        padding-top: $spacing-3
+        padding-bottom: $spacing-3
         @include media-breakpoint-up(desktop)
-            padding-top: $spacing2
-            padding-bottom: $spacing2
+            padding-top: $spacing-4
+            padding-bottom: $spacing-4
             .menu
                 padding-bottom: $border-width
             .dropdown-menu
                 border-bottom: $color-accent $border-width solid
                 margin-top: 1px
-                padding-top: $spacing2
+                padding-top: $spacing-4
 
 .blocks 
     > .block-chapter
@@ -35,7 +35,7 @@ header#document-header
     .block-chapter--accent_background,
     .block-chapter--alt_background
         @include in-page-with-sidebar
-            padding-bottom: $spacing3
+            padding-bottom: $spacing-5
 .hero
     .content
         figure
@@ -45,14 +45,14 @@ header#document-header
 
 .organization
     .media
-        padding: $spacing2
+        padding: $spacing-4
 
 // .media
 //     picture.is-svg
 //         img
 //             object-position: left
-//             padding-bottom: $spacing1
-//             padding-top: $spacing1
+//             padding-bottom: $spacing-3
+//             padding-top: $spacing-3
 
 footer#document-footer
     outline: $color-accent $border-width solid
@@ -62,7 +62,7 @@ footer#document-footer
 .page__home
     .hero
         h1
-            margin-top: $spacing3
+            margin-top: $spacing-5
             @include media-breakpoint-up(desktop)
-                margin-top: $spacing4
+                margin-top: $spacing-6
 

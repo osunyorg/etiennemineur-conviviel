@@ -16,3 +16,5 @@ params:
   organizations:
     single:
       backlinks: true
+  debug:
+     productionUrl: "https://conviviel.org"
