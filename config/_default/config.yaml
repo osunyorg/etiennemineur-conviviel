@@ -5,9 +5,11 @@ removePathAccents: true
 params:
   posts:
     index:
-      show_categories: true
       truncate_description: 0
       layout: list
+      options:
+        categories: true
+
   persons:
     index:
       layout: grid
@@ -17,4 +19,4 @@ params:
     single:
       backlinks: true
   debug:
-     productionUrl: "https://conviviel.org"
+    productionUrl: "https://conviviel.org"
