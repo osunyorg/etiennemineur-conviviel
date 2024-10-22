@@ -52,15 +52,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Organisations
-    slug: "organisations"
-    position: 1
-    rank: 2
+    slug: >-
+      organisations
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -91,16 +99,23 @@ contents:
         - slug: "volumique"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Écoles
-    slug: "ecoles"
-    position: 2
-    rank: 2
+    slug: >-
+      ecoles
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -121,7 +136,6 @@ contents:
         - slug: "head-geneve"
         - slug: "institut-superieur-de-design-de-saint-malo"
         - slug: "mmi-bordeaux"
-
 
 
 
