@@ -5,6 +5,7 @@ items:
   target: "/manifeste/"
   kind: page
   children: []
+  file: content/fr/pages/manifeste/_index.html
 - title: Communs numériques
   target: "/communs-numeriques/"
   kind: page
@@ -13,10 +14,12 @@ items:
     target: "/communs-numeriques/definitions-et-methodologie/"
     kind: page
     children: []
+    file: content/fr/pages/communs-numeriques/definitions-et-methodologie/_index.html
   - title: Inventaire contributif
     target: "/communs-numeriques/inventaire-contributif/"
     kind: page
     children: []
+    file: content/fr/pages/communs-numeriques/inventaire-contributif/_index.html
   - title: Travaux en cours
     target: "/communs-numeriques/travaux-en-cours/"
     kind: page
@@ -25,26 +28,34 @@ items:
       target: "/communs-numeriques/travaux-en-cours/flop/"
       kind: page
       children: []
+      file: content/fr/pages/communs-numeriques/travaux-en-cours/flop/_index.html
     - title: Hypercomics
       target: "/communs-numeriques/travaux-en-cours/hypercomics/"
       kind: page
       children: []
+      file: content/fr/pages/communs-numeriques/travaux-en-cours/hypercomics/_index.html
     - title: Mastodon
       target: "/communs-numeriques/travaux-en-cours/mastodon/"
       kind: page
       children: []
+      file: content/fr/pages/communs-numeriques/travaux-en-cours/mastodon/_index.html
     - title: Mobilizon
       target: "/communs-numeriques/travaux-en-cours/mobilizon/"
       kind: page
       children: []
+      file: content/fr/pages/communs-numeriques/travaux-en-cours/mobilizon/_index.html
     - title: PeerTube
       target: "/communs-numeriques/travaux-en-cours/peertube/"
       kind: page
       children: []
+      file: content/fr/pages/communs-numeriques/travaux-en-cours/peertube/_index.html
     - title: Pixelfed
       target: "/communs-numeriques/travaux-en-cours/pixelfed/"
       kind: page
       children: []
+      file: content/fr/pages/communs-numeriques/travaux-en-cours/pixelfed/_index.html
+    file: content/fr/pages/communs-numeriques/travaux-en-cours/_index.html
+  file: content/fr/pages/communs-numeriques/_index.html
 - title: Parties prenantes
   target: ''
   kind: blank
@@ -53,10 +64,12 @@ items:
     target: "/organisations/"
     kind: page
     children: []
+    file: content/fr/organizations/_index.html
   - title: Personnes
     target: "/personnes/"
     kind: page
     children: []
+    file: content/fr/persons/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -65,16 +78,21 @@ items:
     target: "/actualites/"
     kind: page
     children: []
+    file: content/fr/posts/_index.html
   - title: Travaux en cours
     target: "/actualites/travaux-en-cours/"
     kind: category
     children: []
+    file: content/fr/posts_categories/travaux-en-cours/_index.html
   - title: Ressources
     target: "/actualites/ressources/"
     kind: category
     children: []
+    file: content/fr/posts_categories/ressources/_index.html
   - title: Actualités de l'initiative
     target: "/actualites/conviviel/"
     kind: category
     children: []
+    file: content/fr/posts_categories/conviviel/_index.html
+  file: content/fr/posts/_index.html
 
