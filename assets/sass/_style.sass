@@ -1,8 +1,8 @@
 body
     // background-image: url(/assets/images/background-desktop.png) 
     &::before
-        outline: $color-accent $border-width  solid
-        outline-offset: -$border-width
+        outline: $color-accent $site-border-width  solid
+        outline-offset: -$site-border-width
         content: ""
         display: block
         position: fixed
@@ -14,8 +14,8 @@ body
         pointer-events: none
     
 header#document-header
-    outline: $color-accent $border-width solid
-    outline-offset: -$border-width
+    outline: $color-accent $site-border-width solid
+    outline-offset: -$site-border-width
     nav
         padding-top: $spacing-3
         padding-bottom: $spacing-3
@@ -23,9 +23,9 @@ header#document-header
             padding-top: $spacing-4
             padding-bottom: $spacing-4
             .menu
-                padding-bottom: $border-width
+                padding-bottom: $site-border-width
             .dropdown-menu
-                border-bottom: $color-accent $border-width solid
+                border-bottom: $color-accent $site-border-width solid
                 margin-top: 1px
                 padding-top: $spacing-4
 
@@ -40,8 +40,8 @@ header#document-header
     .content
         figure
             @include media-breakpoint-down(desktop)
-                margin-left: -$border-width
-                margin-right: -$border-width
+                margin-left: -$site-border-width
+                margin-right: -$site-border-width
 
 .organization
     .media
@@ -55,7 +55,7 @@ header#document-header
 //             padding-top: $spacing-3
 
 footer#document-footer
-    outline: $color-accent $border-width solid
+    outline: $color-accent $site-border-width solid
     @include media-breakpoint-down(desktop)
         text-align: center
 

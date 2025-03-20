@@ -14,7 +14,7 @@
     .toc-container
         @include in-page-without-sidebar
             .toc-content
-                outline: $color-accent $border-width solid
+                outline: $color-accent $site-border-width solid
 
 // Mobile specific
 @include media-breakpoint-down(desktop)
@@ -23,11 +23,11 @@
         margin-left: -$spacing-3
     .toc-cta
         padding: $spacing-3
-        outline: $color-accent $border-width solid
-        outline-offset: -$border-width
+        outline: $color-accent $site-border-width solid
+        outline-offset: -$site-border-width
     .toc-container
         .toc-content
-            outline: $color-accent $border-width solid
+            outline: $color-accent $site-border-width solid
         @include in-page-with-or-without-sidebar
             .toc-title
                 padding-top: $spacing-3
