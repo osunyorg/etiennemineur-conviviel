@@ -2,134 +2,193 @@
 title: Primary
 items:
 - title: Manifeste
+  slug: manifeste
   target: "/manifeste/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/manifeste"
   file: content/fr/pages/manifeste/_index.html
 - title: Communs numériques
+  slug: communs-numeriques
   target: "/communs-numeriques/"
   kind: page
   new_tab: false
   children:
   - title: Définitions et méthodologie
+    slug: definitions-et-methodologie
     target: "/communs-numeriques/definitions-et-methodologie/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/communs-numeriques/definitions-et-methodologie"
     file: content/fr/pages/communs-numeriques/definitions-et-methodologie/_index.html
   - title: Inventaire contributif
+    slug: inventaire-contributif
     target: "/communs-numeriques/inventaire-contributif/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/communs-numeriques/inventaire-contributif"
     file: content/fr/pages/communs-numeriques/inventaire-contributif/_index.html
   - title: Travaux en cours
+    slug: travaux-en-cours
     target: "/communs-numeriques/travaux-en-cours/"
     kind: page
     new_tab: false
     children:
     - title: Flop!
+      slug: flop
       target: "/communs-numeriques/travaux-en-cours/flop/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/communs-numeriques/travaux-en-cours/flop"
       file: content/fr/pages/communs-numeriques/travaux-en-cours/flop/_index.html
     - title: Hypercomics
+      slug: hypercomics
       target: "/communs-numeriques/travaux-en-cours/hypercomics/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/communs-numeriques/travaux-en-cours/hypercomics"
       file: content/fr/pages/communs-numeriques/travaux-en-cours/hypercomics/_index.html
     - title: Mastodon
+      slug: mastodon
       target: "/communs-numeriques/travaux-en-cours/mastodon/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/communs-numeriques/travaux-en-cours/mastodon"
       file: content/fr/pages/communs-numeriques/travaux-en-cours/mastodon/_index.html
     - title: Mobilizon
+      slug: mobilizon
       target: "/communs-numeriques/travaux-en-cours/mobilizon/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/communs-numeriques/travaux-en-cours/mobilizon"
       file: content/fr/pages/communs-numeriques/travaux-en-cours/mobilizon/_index.html
     - title: PeerTube
+      slug: peertube
       target: "/communs-numeriques/travaux-en-cours/peertube/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/communs-numeriques/travaux-en-cours/peertube"
       file: content/fr/pages/communs-numeriques/travaux-en-cours/peertube/_index.html
     - title: Pixelfed
+      slug: pixelfed
       target: "/communs-numeriques/travaux-en-cours/pixelfed/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/communs-numeriques/travaux-en-cours/pixelfed"
       file: content/fr/pages/communs-numeriques/travaux-en-cours/pixelfed/_index.html
+    descendants_targets:
+    - "/communs-numeriques/travaux-en-cours/flop/"
+    - "/communs-numeriques/travaux-en-cours/hypercomics/"
+    - "/communs-numeriques/travaux-en-cours/mastodon/"
+    - "/communs-numeriques/travaux-en-cours/mobilizon/"
+    - "/communs-numeriques/travaux-en-cours/peertube/"
+    - "/communs-numeriques/travaux-en-cours/pixelfed/"
     path: "/pages/communs-numeriques/travaux-en-cours"
     file: content/fr/pages/communs-numeriques/travaux-en-cours/_index.html
+  descendants_targets:
+  - "/communs-numeriques/definitions-et-methodologie/"
+  - "/communs-numeriques/inventaire-contributif/"
+  - "/communs-numeriques/travaux-en-cours/"
+  - "/communs-numeriques/travaux-en-cours/flop/"
+  - "/communs-numeriques/travaux-en-cours/hypercomics/"
+  - "/communs-numeriques/travaux-en-cours/mastodon/"
+  - "/communs-numeriques/travaux-en-cours/mobilizon/"
+  - "/communs-numeriques/travaux-en-cours/peertube/"
+  - "/communs-numeriques/travaux-en-cours/pixelfed/"
   path: "/pages/communs-numeriques"
   file: content/fr/pages/communs-numeriques/_index.html
 - title: Parties prenantes
+  slug: parties-prenantes
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Organisations
+    slug: organisations
     target: "/organisations/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
   - title: Personnes
+    slug: personnes
     target: "/personnes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/fr/persons/_index.html
+  descendants_targets:
+  - "/organisations/"
+  - "/personnes/"
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children:
   - title: Toutes les actualités
+    slug: toutes-les-actualites
     target: "/actualites/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Travaux en cours
+    slug: travaux-en-cours
     target: "/actualites/travaux-en-cours/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/travaux-en-cours"
     file: content/fr/posts_categories/travaux-en-cours/_index.html
   - title: Ressources
+    slug: ressources
     target: "/actualites/ressources/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/ressources"
     file: content/fr/posts_categories/ressources/_index.html
   - title: Actualités de l'initiative
+    slug: actualites-de-l-initiative
     target: "/actualites/conviviel/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/conviviel"
     file: content/fr/posts_categories/conviviel/_index.html
+  descendants_targets:
+  - "/actualites/"
+  - "/actualites/conviviel/"
+  - "/actualites/ressources/"
+  - "/actualites/travaux-en-cours/"
   path: "/posts"
   file: content/fr/posts/_index.html
 
