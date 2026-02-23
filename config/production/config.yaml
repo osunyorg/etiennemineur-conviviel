@@ -7,6 +7,11 @@ osuny:
   website:
     id: 62b7e675-0784-4227-9d1e-87daaf99f016
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "conviviel.org"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
