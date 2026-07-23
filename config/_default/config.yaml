@@ -1,4 +1,5 @@
 theme: osuny
+_merge: deep
 pagination:
   pagerSize: 18
 enableRobotsTXT: true
