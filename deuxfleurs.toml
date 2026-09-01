@@ -75,6 +75,10 @@ from = "/organisations/institutdesign/index.html"
 to = "/organisations/institut-superieur-de-design-de-saint-malo/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/mastodon-etudes-des-usages-granjon-blondelle-tapia-compressedpdf/"
+
+[[redirects]]
 from = "/actualites/2023-01-08-recherche-utilisateur-pixelfed-marie-cecile-godwin/index.html"
 to = "/actualites/2021-01-08-recherche-utilisateur-pixelfed-marie-cecile-godwin/"
 
